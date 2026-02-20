@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LevelController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
@@ -16,3 +17,5 @@ Route::prefix('category')->group(function () {
 });
 
 Route::get('/user/{id}/name/{name}', [UserController::class, 'profile']);
+
+Route::get('/level', [LevelController::class,'index']);
