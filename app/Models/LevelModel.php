@@ -11,6 +11,7 @@ class LevelModel extends Model
     public $timestamps = true;
 
     protected $fillable = [
-        'level_nama'
+        'level_nama',
+        'level_kode'
     ];
 }
