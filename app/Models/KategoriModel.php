@@ -17,4 +17,6 @@ class KategoriModel extends Model
         'kategori_kode',
         'kategori_nama'
     ];
+
+
 }
